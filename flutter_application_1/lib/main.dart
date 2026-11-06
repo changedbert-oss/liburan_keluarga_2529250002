@@ -35,7 +35,7 @@ class MainScreen extends StatelessWidget{
               ),
               const SizedBox(height: 18),
               const Text(
-                'Tetang Taman',
+                'Tentang Taman',
               style: TextStyle(
                 fontSize: 21,
                 fontWeight: FontWeight.bold,
@@ -78,7 +78,8 @@ class MainScreen extends StatelessWidget{
                         fontWeight: FontWeight.bold,
                         color: Color.fromARGB(255, 57, 129, 85),
                       )
-                    )
+                    ),
+                
                     SizedBox(height: 8),
                     Row(
                       children: [
@@ -95,7 +96,8 @@ class MainScreen extends StatelessWidget{
                               color: Colors.black54,
                               fontSize: 14,
                             ),
-                          )
+                          ),
+                        ),
                         SizedBox(height: 8,),
                           Row(
                       children: [
@@ -113,6 +115,7 @@ class MainScreen extends StatelessWidget{
                               fontSize: 14,
                             ),
                           ),
+                        ),
                           SizedBox(height: 8),
                     Row(
                       children: [
@@ -133,19 +136,21 @@ class MainScreen extends StatelessWidget{
                             )
                           ],
                         ),
-                      ),
+                      ],
+                          ),
                     ],  
                   )
-                )
-              ],
-            ),
+                ],
+              ),
+              ),
           ],
+          
         ),
       ),
-    ],
-  ),
-),
-),
-);
+    
+  )
+
+    );
+
 }
 }
